@@ -1,0 +1,36 @@
+#bMDiv1 {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(29, 198, 29);
+    padding: 10px;
+}
+#Etitle {
+    height:20vh;
+    background-color: rgb(29, 198, 29) ;
+}
+
+#Frankbutton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url("Frank.jpg");
+    width: 100%;
+    height: 380px; 
+}
+#Frankbutton:hover {
+    -webkit-filter:invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+}
+#bMDiv3  {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid purple;
+    padding: 10px;
+}
+#glance p {
+    width:50%
+}
+#sametech p {
+    width:50%
+}
