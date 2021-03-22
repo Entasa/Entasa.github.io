@@ -1,0 +1,24 @@
+body {
+    background: url("media/brown.png");
+}
+header {
+    background-color: rgba(0, 0, 0, 0.66);
+    margin-bottom: 1em;
+  }
+div img{
+    padding: 0vw;
+    border: solid yellow 3px;
+    width: 500px;
+    height: 300px; 
+    margin-right: 35px;
+}
+@font-face {
+    font-family: Staat;
+    src: url(Staatliches-Regular.ttf)
+
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+
