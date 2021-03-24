@@ -1,24 +1,174 @@
-body {
+#Main {
     background: url("media/brown.png");
 }
-header {
+#mainheader {
     background-color: rgba(0, 0, 0, 0.66);
     margin-bottom: 1em;
   }
-div img{
+#Main img{
     padding: 0vw;
     border: solid yellow 3px;
     width: 500px;
     height: 300px; 
     margin-right: 35px;
+    transition: width 2s, height 2s;
+}
+#Main img:hover {
+    width: 600px;
+    height:400px;
 }
 @font-face {
     font-family: Staat;
     src: url(Staatliches-Regular.ttf)
 
 }
-div {
+#Main div {
     display: flex;
     justify-content: center;
+}
+@font-face {
+    font-family: Staat;
+    src: url(Staatliches-Regular.ttf)
+
+}
+/* Lightening and poverty*/
+#light {
+    background-color: black;
+}
+#glowhead {
+    background-color: rgba(0, 0, 0, 0.66);
+    margin-bottom: 1em;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+  -moz-animation: glow 3s ease-in-out infinite alternate;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+     from {
+      color: rgb(150, 104, 35);
+    text-shadow: 0 0 20px rgb(150, 104, 35),0 0 30px rgb(150, 104, 35) 
+  }
+  
+  to {
+     color: grey;
+    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  }
+}
+
+#container {
+    display: flex;
+  justify-content: space-around;
+}
+#Aboutcream{
+
+    height: 50%;
+    width: 30%;
+    margin-left: 2px;
+    
+}
+#CelebFL {
+
+    height: 50%;
+    width: 30%;
+    margin-right: 2px;
+}
+#photowoman {
+    display: flex;
+    justify-content: center;
+
+}
+#photowoman img {
+    padding: 0vw;
+    border: solid yellow 3px;
+    width: 500px;
+    height: 300px; 
+    margin-right: 35px;
+}
+/* Brownface */
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+/* Global */
+@font-face {
+    font-family: Staat;
+    src: url(Staatliches-Regular.ttf)
+
+}
+text {
+    display:grid
+}
+#BrownfaceH {
+    background-color: rgba(162, 159, 159, 0.75);
+}
+html{
+  min-height: 100%;
+}
+#BF{
+  
+   
+  background-color: rgb(25,25,25);  
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+.line-2{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+div img { 
+    width: 100%;
+    height: 100%;
+}
+#text{
+    background-color: rgba(162, 159, 159, 0.75);
+    width: 50%;
+    margin:20px;
+    padding: 5px;
+}
+#bfimages {
+    /*width: 40%*/
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+}
+#img { 
+    width: 50%;
+    height: 100%;
+    
+    
 }
 
