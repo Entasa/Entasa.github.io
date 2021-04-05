@@ -17,6 +17,7 @@ h1 {
 }
 .content {
     font-size: 30px;
+    border: solid rgb(83, 128, 128) 5px;
 }
 #text {
     background-color: rgb(83, 128, 128);
