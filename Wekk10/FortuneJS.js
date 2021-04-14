@@ -8,8 +8,10 @@ var tell_fortune = function() {
     document.getElementById('response').innerHTML = response;
 }
 
-var future = function() {
+$( "#Fbutton" ).dblclick(function() {
     var response = fortune[Math.floor(Math.random()* fortune.length)];
     document.getElementById('response').innerHTML = response
 
-}
+});
+ 
+

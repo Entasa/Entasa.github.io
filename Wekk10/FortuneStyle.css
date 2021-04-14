@@ -48,10 +48,18 @@ body, html {
     border: 3px solid rgb(201, 201, 25);
     
   }
-  #fortunebutton {
+  #future {
+       margin-left: auto;
+      margin-right: auto;
       font-family: Medieval;
       background-color: purple;
       border: 3px solid rgb(201, 201, 25);
 
 
+  }
+  #Fbutton {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
