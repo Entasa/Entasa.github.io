@@ -1,0 +1,92 @@
+body {
+    background: url(pexels-madison-inouye-1831234.jpg);
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: pink;
+
+    
+}
+@font-face {
+    font-family: Lobster;
+    src: url(Lobster-Regular.ttf)
+}
+
+#title {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+nav {
+    margin : 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+}
+.menuItems {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 23px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    text-transform: uppercase;}
+
+    ::before {
+      content: attr(data-item);
+      transition: 0.5s;
+      color: #8254ff;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 0;
+      overflow: hidden;
+    }
+#about {
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.5s ease-in ;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 50%; 
+    padding: 5px;
+    
+}
+span {
+    font-size: 45px ;
+    font-family: Lobster;
+
+}
+#factsheet {
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.5s ease-in ;
+    font-size: 25pxpx;
+    text-align: center;
+    margin-left: 50%; 
+    padding: 5px;
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid #ff7713;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Avenir,Helvetica,sans-serif;
+    border-radius: 33px;
+    color: #fff;
+    text-align: center;
+    background: #ff7713;
+    transition: all .1s linear;
+    white-space: nowrap
+}
+
+ 
+

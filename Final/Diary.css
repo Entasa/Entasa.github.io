@@ -1,0 +1,30 @@
+body{
+    background-image: url(pexels-madison-inouye-1831234.jpg);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(Lobster-Regular.ttf)
+} 
+h1 {
+    text-align: center;
+    font-family: Lobster;
+    color: white;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.flex-child {
+    flex: 1;
+    border:5px solid hotpink;
+    border-radius: 25px;
+    padding: 6px;
+
+}
+.flex-child:first-child {
+    margin-right: 30px;
+}
