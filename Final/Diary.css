@@ -9,7 +9,12 @@ h1 {
     text-align: center;
     font-family: Lobster;
     color: white;
-    font-size: 40px;
+    font-size: 50px;
+}
+input {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 30px;
+    background-color: transparent;
 }
 
 .container {
@@ -23,6 +28,7 @@ h1 {
     border:5px solid hotpink;
     border-radius: 25px;
     padding: 6px;
+    height: 400px;
 
 }
 .flex-child:first-child {
