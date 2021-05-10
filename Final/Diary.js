@@ -11,3 +11,8 @@ function Name() {
    
 
 };
+function Entry {
+    console.log("here next!");
+    //create div 
+    document.querySelector("#divname").innerHTML = DEntry.value
+}
