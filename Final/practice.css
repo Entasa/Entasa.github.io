@@ -1,7 +1,46 @@
 
 body {
-    background-image: url(pexels-madison-inouye-1831234.jpg);
+    background-color: #33383A;
 }
+@font-face {
+  font-family: Lobster;
+  src: url(Lobster-Regular.ttf)
+} 
+
+nav {
+  margin : 8px;
+  background-color: #ECC9C8;
+  padding: 2px;
+}
+.menuItems {
+  list-style: none;
+  display: flex;
+}
+li {
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+  color: #5c3037;
+  font-size: 23px;
+  font-weight: 400;
+  
+  position: relative;
+  text-transform: uppercase;}
+
+  ::before {
+    content: attr(data-item);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+  }
+  a:hover {
+    color: white;
+  }
 html body .card {
     border-radius: 15px;
     overflow: hidden

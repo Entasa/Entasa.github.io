@@ -10,6 +10,15 @@
     <script src ="Diary.js" defer></script>
     </head>
     <body>
+        <nav>
+            <ul class="menuItems">
+              <li><a href='homepage.html' data-item='Home'>Home</a></li>
+              <li><a href='practice.html'data-item='Calendar'>Calendar</a></li>
+              <li><a href='Diary.html' data-item='Diary'>Diary</a></li>
+              <li><a href='health.html' data-item='Health'>Health and Fitness</a></li>
+            
+            </ul>
+          </nav>
         <h1> 
             <input id="userinput" type= "text" placeholder="Enter your name">
             <button onclick="Name()"> Enter </button>
@@ -17,10 +26,17 @@
         <div id="userName">'s Diary Entry </div>
         
     </h1>
-        <div class = "container">
-            <div class = "flex-child leftpage">
+    
+            <div id= "writing">
+            
                 <input type="text" name="DiaryEntry" id="DEntry" placeholder="How was your day?">
+                <button onclick="Entry()"> Enter </button>
+
             </div>
-            <div class = "flex-child rightpage"></div>
-        </div>
+            <br>
+            <br>
+
+            <div id = "display" >
+            </div>
+
     </body>

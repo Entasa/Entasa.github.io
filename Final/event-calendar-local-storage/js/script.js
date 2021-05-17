@@ -14,7 +14,7 @@ let year = c_date.getFullYear();
     const calendar = `<div class="container">
         <div class="row">
             <div class="col-sm-10 mx-auto text-center mt-5 page-hero">
-                <h3> Your Event Calendar</h3>
+                <h3 style = "font-family:'Lobster'; font-size: 60px; color:white;"> Event Calendar </h3>
                 
             </div>
         </div>

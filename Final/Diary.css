@@ -1,36 +1,89 @@
 body{
-    background-image: url(pexels-madison-inouye-1831234.jpg);
+    background-color: #33383A;
 }
 @font-face {
     font-family: Lobster;
     src: url(Lobster-Regular.ttf)
 } 
+button {
+    background-color: #ECC9C8;
+    border-radius: 100%;
+}
+
+nav {
+    margin : 8px;
+    background-color: #ECC9C8;
+    padding: 2px;
+}
+.menuItems {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 23px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    text-transform: uppercase;}
+
+    ::before {
+      content: attr(data-item);
+      transition: 0.5s;
+      color: #8254ff;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 0;
+      overflow: hidden;
+    }
 h1 {
     text-align: center;
     font-family: Lobster;
-    color: white;
-    font-size: 50px;
+    color:#e2566d;
+    font-size: 60px;
+    text-shadow: 2px 2px #ECC9C8;
 }
 input {
-    font-family: 'Goudy Bookletter 1911', serif;
     font-size: 30px;
+    color: #E2566D;
     background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid #ECC9C8;
 }
 
-.container {
+
+#writing {
+    margin: auto;
     display: flex;
     justify-content: center;
-    
-    
-}
-.flex-child {
-    flex: 1;
-    border:5px solid hotpink;
+    border:5px;
     border-radius: 25px;
     padding: 6px;
-    height: 400px;
+    width: 90%;
+    background-color:#4f575a;
 
 }
-.flex-child:first-child {
-    margin-right: 30px;
+#display {
+    position:relative;
+    margin: auto;
+    border:5px;
+    border-radius: 25px;
+    padding: 6px;
+    width: 90%;
+    height: 500px;
+    background-color:#4f575a;
+    overflow: scroll;
+}
+
+
+::placeholder {
+    color : #ECC9C8;
+    opacity: 1;
 }
